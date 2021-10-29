@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 tmp_flame_src='_flame-src'
-output_dir='build'
+output_dir='docs'
 
 function main {
   rm -rf $output_dir
