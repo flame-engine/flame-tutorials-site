@@ -23,7 +23,7 @@ function generate {
   cd $tmp_flame_src/tutorials/$tutorial
   flutter pub get
   flutter build web
-  cp -R build/web/* ../../../build/
+  cp -R build/web/* ../../../$output_dir
   cd ../../..
 }
 
