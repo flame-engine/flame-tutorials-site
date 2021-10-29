@@ -30,7 +30,7 @@ function generate {
 function git_push {
   git config --global user.email "luanpotter27@gmail.com"
   git config --global user.name "Luan Nico"
-  git add build
+  git add $output_dir
   git commit -m "Update & publish new tutorials versions"
   git push
 }
